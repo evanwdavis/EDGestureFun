@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20D705151502BEAB00A693EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D705141502BEAB00A693EE /* UIKit.framework */; };
+		20D705171502BEAB00A693EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D705161502BEAB00A693EE /* Foundation.framework */; };
+		20D705191502BEAB00A693EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D705181502BEAB00A693EE /* CoreGraphics.framework */; };
+		20D7051F1502BEAB00A693EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20D7051D1502BEAB00A693EE /* InfoPlist.strings */; };
+		20D705211502BEAB00A693EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D705201502BEAB00A693EE /* main.m */; };
+		20D705251502BEAB00A693EE /* EDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D705241502BEAB00A693EE /* EDAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20D705101502BEAB00A693EE /* EDGestureFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EDGestureFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D705141502BEAB00A693EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20D705161502BEAB00A693EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20D705181502BEAB00A693EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20D7051C1502BEAB00A693EE /* EDGestureFun-Info.plist */ = {isa = PBXFileReference; path = "EDGestureFun-Info.plist"; sourceTree = "<group>"; };
+		20D7051E1502BEAB00A693EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20D705201502BEAB00A693EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20D705221502BEAB00A693EE /* EDGestureFun-Prefix.pch */ = {isa = PBXFileReference; path = "EDGestureFun-Prefix.pch"; sourceTree = "<group>"; };
+		20D705231502BEAB00A693EE /* EDAppDelegate.h */ = {isa = PBXFileReference; path = EDAppDelegate.h; sourceTree = "<group>"; };
+		20D705241502BEAB00A693EE /* EDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D7050D1502BEAB00A693EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D705151502BEAB00A693EE /* UIKit.framework in Frameworks */,
+				20D705171502BEAB00A693EE /* Foundation.framework in Frameworks */,
+				20D705191502BEAB00A693EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20D705051502BEAA00A693EE = {
+			isa = PBXGroup;
+			children = (
+				20D7051A1502BEAB00A693EE /* EDGestureFun */,
+				20D705131502BEAB00A693EE /* Frameworks */,
+				20D705111502BEAB00A693EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20D705111502BEAB00A693EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20D705101502BEAB00A693EE /* EDGestureFun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D705131502BEAB00A693EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D705141502BEAB00A693EE /* UIKit.framework */,
+				20D705161502BEAB00A693EE /* Foundation.framework */,
+				20D705181502BEAB00A693EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20D7051A1502BEAB00A693EE /* EDGestureFun */ = {
+			isa = PBXGroup;
+			children = (
+				20D705231502BEAB00A693EE /* EDAppDelegate.h */,
+				20D705241502BEAB00A693EE /* EDAppDelegate.m */,
+				20D7051B1502BEAB00A693EE /* Supporting Files */,
+			);
+			path = EDGestureFun;
+			sourceTree = "<group>";
+		};
+		20D7051B1502BEAB00A693EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20D7051C1502BEAB00A693EE /* EDGestureFun-Info.plist */,
+				20D7051D1502BEAB00A693EE /* InfoPlist.strings */,
+				20D705201502BEAB00A693EE /* main.m */,
+				20D705221502BEAB00A693EE /* EDGestureFun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20D7050F1502BEAB00A693EE /* EDGestureFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D705281502BEAB00A693EE /* Build configuration list for PBXNativeTarget "EDGestureFun" */;
+			buildPhases = (
+				20D7050C1502BEAB00A693EE /* Sources */,
+				20D7050D1502BEAB00A693EE /* Frameworks */,
+				20D7050E1502BEAB00A693EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EDGestureFun;
+			productName = EDGestureFun;
+			productReference = 20D705101502BEAB00A693EE /* EDGestureFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20D705071502BEAA00A693EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ED;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "WillowTree Apps";
+			};
+			buildConfigurationList = 20D7050A1502BEAA00A693EE /* Build configuration list for PBXProject "EDGestureFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20D705051502BEAA00A693EE;
+			productRefGroup = 20D705111502BEAB00A693EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20D7050F1502BEAB00A693EE /* EDGestureFun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20D7050E1502BEAB00A693EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D7051F1502BEAB00A693EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D7050C1502BEAB00A693EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D705211502BEAB00A693EE /* main.m in Sources */,
+				20D705251502BEAB00A693EE /* EDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20D7051D1502BEAB00A693EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D7051E1502BEAB00A693EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20D705261502BEAB00A693EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20D705271502BEAB00A693EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20D705291502BEAB00A693EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EDGestureFun/EDGestureFun-Prefix.pch";
+				INFOPLIST_FILE = "EDGestureFun/EDGestureFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20D7052A1502BEAB00A693EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EDGestureFun/EDGestureFun-Prefix.pch";
+				INFOPLIST_FILE = "EDGestureFun/EDGestureFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D7050A1502BEAA00A693EE /* Build configuration list for PBXProject "EDGestureFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D705261502BEAB00A693EE /* Debug */,
+				20D705271502BEAB00A693EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D705281502BEAB00A693EE /* Build configuration list for PBXNativeTarget "EDGestureFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D705291502BEAB00A693EE /* Debug */,
+				20D7052A1502BEAB00A693EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20D705071502BEAA00A693EE /* Project object */;
+}
