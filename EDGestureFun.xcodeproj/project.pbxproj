@@ -13,6 +13,7 @@
 		20D7051F1502BEAB00A693EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20D7051D1502BEAB00A693EE /* InfoPlist.strings */; };
 		20D705211502BEAB00A693EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D705201502BEAB00A693EE /* main.m */; };
 		20D705251502BEAB00A693EE /* EDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D705241502BEAB00A693EE /* EDAppDelegate.m */; };
+		20D7052D1502BEFF00A693EE /* EDHiddenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D7052C1502BEFF00A693EE /* EDHiddenTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		20D705141502BEAB00A693EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		20D705161502BEAB00A693EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20D705181502BEAB00A693EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		20D7051C1502BEAB00A693EE /* EDGestureFun-Info.plist */ = {isa = PBXFileReference; path = "EDGestureFun-Info.plist"; sourceTree = "<group>"; };
+		20D7051C1502BEAB00A693EE /* EDGestureFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EDGestureFun-Info.plist"; sourceTree = "<group>"; };
 		20D7051E1502BEAB00A693EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20D705201502BEAB00A693EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		20D705221502BEAB00A693EE /* EDGestureFun-Prefix.pch */ = {isa = PBXFileReference; path = "EDGestureFun-Prefix.pch"; sourceTree = "<group>"; };
-		20D705231502BEAB00A693EE /* EDAppDelegate.h */ = {isa = PBXFileReference; path = EDAppDelegate.h; sourceTree = "<group>"; };
+		20D705221502BEAB00A693EE /* EDGestureFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EDGestureFun-Prefix.pch"; sourceTree = "<group>"; };
+		20D705231502BEAB00A693EE /* EDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDAppDelegate.h; sourceTree = "<group>"; };
 		20D705241502BEAB00A693EE /* EDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDAppDelegate.m; sourceTree = "<group>"; };
+		20D7052B1502BEFF00A693EE /* EDHiddenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDHiddenTableViewController.h; sourceTree = "<group>"; };
+		20D7052C1502BEFF00A693EE /* EDHiddenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDHiddenTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			children = (
 				20D705231502BEAB00A693EE /* EDAppDelegate.h */,
 				20D705241502BEAB00A693EE /* EDAppDelegate.m */,
+				20D7052B1502BEFF00A693EE /* EDHiddenTableViewController.h */,
+				20D7052C1502BEFF00A693EE /* EDHiddenTableViewController.m */,
 				20D7051B1502BEAB00A693EE /* Supporting Files */,
 			);
 			path = EDGestureFun;
@@ -155,6 +160,7 @@
 			files = (
 				20D705211502BEAB00A693EE /* main.m in Sources */,
 				20D705251502BEAB00A693EE /* EDAppDelegate.m in Sources */,
+				20D7052D1502BEFF00A693EE /* EDHiddenTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "EDAppDelegate.h"
+#import "EDHiddenTableViewController.h"
 
 @implementation EDAppDelegate
 
@@ -17,6 +18,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window setRootViewController:[[EDHiddenTableViewController alloc] init]];
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
