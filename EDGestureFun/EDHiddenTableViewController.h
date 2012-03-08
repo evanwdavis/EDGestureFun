@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol EDHiddenTableViewControllerDelegate;
+
 @interface EDHiddenTableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@end
+
+
+@protocol EDHiddenTableViewControllerDelegate <NSObject>
 
 @end

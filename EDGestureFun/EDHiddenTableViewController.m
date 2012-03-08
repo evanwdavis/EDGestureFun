@@ -15,6 +15,7 @@
 @property (nonatomic, strong) UITableView * tableView;
 @property (nonatomic, strong) UILabel * xShift;
 @property (nonatomic) BOOL isPanningVertical;
+@property (nonatomic, strong) NSIndexPath * selectedIndexPath;
 @end
 
 @implementation EDHiddenTableViewController
@@ -22,6 +23,7 @@
 @synthesize tableView = _tableView;
 @synthesize xShift = _xShift;
 @synthesize isPanningVertical;
+@synthesize selectedIndexPath = _selectedIndexPath;
 
 - (id)init
 {
@@ -110,7 +112,17 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    
+    NSArray * visibleIndices = [self.tableView indexPathsForVisibleRows];
+    if([visibleIndices count] > 2)
+    {
+        NSIndexPath * newSelected = [visibleIndices objectAtIndex:2];
+        NSLog(@"new %d old %d", newSelected.row, self.selectedIndexPath.row);
+        if(newSelected.row != self.selectedIndexPath.row)
+        {
+            [self.tableView selectRowAtIndexPath:newSelected animated:YES scrollPosition:UITableViewScrollPositionNone];
+            self.selectedIndexPath = newSelected;
+        }
+    }
 }
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
